@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, Link,NavLink} from 'react-router-dom'
 import Home from './components/Home'
-import KeyPoints from './components/KeyPoints'
+import KeyTopics from './components/KeyTopics'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -19,17 +19,18 @@ function App() {
                 <Link className="" to ="/home"> Home</Link>
               </li>
               <li>
-                <Link className="" to ="/keypoints"> Key Points</Link>
+                <Link className="" to ="/keytopics"> Key Topics</Link>
               </li>
             </ul>
           </nav>
           <Switch>
             <Route path="/Home" component={Home} />
-            <Route path="/KeyPoints" component={KeyPoints} />
+            <Route path="/KeyTopics" component={KeyTopics} />
           </Switch>
         </div>
-        <Footer />   
      </Router>
+     <Home />
+     <Footer />   
     </div>
   );
 }
