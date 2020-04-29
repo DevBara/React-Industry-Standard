@@ -2,11 +2,14 @@
   text-align: center;
 }
 
+
+/* Home styling */
 .homeImg{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   margin: 10px;
   height: 650px;
   width: 450px;
+ 
 }
+
+/* End Home Styling */
+
