@@ -27,7 +27,8 @@ function App() {
             <Route path="/Home" component={Home} />
             <Route path="/KeyPoints" component={KeyPoints} />
           </Switch>
-        </div>   
+        </div>
+        <Footer />   
      </Router>
     </div>
   );
