@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+/* Nav */
+li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+/* End Nav */
 
 /* Home styling */
 .homeImg{
