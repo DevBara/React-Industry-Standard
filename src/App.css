@@ -32,7 +32,10 @@ li{
 
 
 /* Footer Styling */
-
+.footerParent{
+  border: 1px solid red;
+  padding: 0px;
+}
 
 
 /* End Footer Styling */
