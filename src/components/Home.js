@@ -6,7 +6,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className="homeContainer">
-                <img className="background" src={DataCover} alt="background"/>
+        
                 <img className="homeImg" src={AI_HR} alt="hands" />
                 <p className="homeIntro"> As Artificial Intelligence(A.I) becomes more apart of our
                      everyday life, new rules and regulations need to be discussed". 
