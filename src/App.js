@@ -29,7 +29,6 @@ function App() {
           </Switch>
         </div>
      </Router>
-     <Home />
      <Footer />   
     </div>
   );
