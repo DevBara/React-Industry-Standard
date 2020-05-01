@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import AI_HR from '../images/AI_HR.jpg'
-import DataCover from '../images/DataCover.png'
+
 
 export default class Home extends Component {
     render() {
@@ -16,9 +16,9 @@ export default class Home extends Component {
                 <div className="homeList">
                     <h3>What to expect:</h3>
                     <ul>
-                        <li>Briding AI and Human Rights</li>
-                        <li>Privacy</li>
-                        <li>Disability Rights & Accessibility</li>
+                        <li>Is AI A Threat?</li>
+                        <li>AI Risks</li>
+                        <li>Bridging AI and Human Rights</li>
                     </ul>
                 </div>
             </div>

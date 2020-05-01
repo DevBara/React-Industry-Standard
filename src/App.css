@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+/* header by charles*/
+
+#header{
+  width: 100%;
+  height: 15vh;
+  background-color: seagreen;
+  text-align: center;
+  color: white;
+}
+
 /* Nav  */
 li{
   list-style-type: none;
@@ -35,3 +45,171 @@ li{
 
 /* End Footer Styling */
 
+#sectionOne{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#top{
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+#headlineArea{
+width: 38%;
+display: inline-flex;
+flex-direction: column;
+height: 70vh;
+}
+
+#textHeadlineOne{
+  width: 100%;
+  height: 50%;
+  background-color: whitesmoke;
+  font-size: 64px;
+  font-family: 'Jura', sans-serif;
+  color: #1C4032;
+  border-top-left-radius: 15px;
+}
+
+#aiImageOne{
+  width: 100%;
+  height: 50%;
+  border: solid black 1px;
+  background-image: url("./images/irobot.jpeg");
+}
+
+#mainTextAreaOne{
+  width: 58%;
+  display: inline-flex;
+  height: 70vh;
+  border: solid black 1px;
+  background-color: whitesmoke;
+  color: #1C4032;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-top-right-radius: 15px;
+  
+}
+
+#mainTextSlide{
+  animation-name: mainText;
+  animation-duration: 0.35s;
+}
+
+@keyframes mainText{
+  0%{
+margin-left: 500px;
+  }
+
+ 
+
+  100%{
+margin-left: 0;
+  }
+}
+
+
+#arrow{
+  color: #1C4032;
+}
+
+#sectionTwo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#headlineAreaTwo{
+  width: 38%;
+  display: inline-flex;
+  flex-direction: column;
+  height: 70vh;
+  border: solid black 1px;
+  background-color: whitesmoke;
+  }
+
+  #textHeadlineTwo{
+    width: 100%;
+    height: 50%;
+    border: solid black 1px;
+    background-color: black;
+    font-family: 'Jura', sans-serif;
+    font-size: 58px;
+    color: whitesmoke;
+  }
+
+  #aiImageTwo{
+    width: 100%;
+    height: 50%;
+    border: solid black 1px;
+    background-image: url("./images/johhnyfive.jpg");
+  }
+
+  #mainTextAreaTwo{
+    width: 58%;
+    display: inline-flex;
+    height: 70vh;
+    border: solid black 1px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: x-large;
+  font-weight: bolder;
+  }
+
+  #sectionThree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #headlineAreaThree{
+    width: 38%;
+    display: inline-flex;
+    flex-direction: column;
+    height: 70vh;
+    border: solid black 1px;
+    }
+  
+    #textHeadlineThree{
+      width: 100%;
+      height: 50%;
+      border: solid black 1px;
+      background-color: #1C4032;
+      font-family: 'Jura', sans-serif;
+      font-size: 58px;
+      color: whitesmoke;
+    }
+  
+    #aiImageThree{
+      width: 100%;
+      height: 50%;
+      border: solid black 1px;
+      background-image: url("./images/citizenship.jpg");
+    }
+  
+    #mainTextAreaThree{
+      width: 58%;
+      display: inline-flex;
+      height: 70vh;
+      border: solid black 1px;
+      background-color: #1C4032;
+      color: whitesmoke;
+      font-size: x-large;
+      font-weight: bolder;
+    }
+
+    #backgroundAll{
+      background-image: url("./images/Screen\ Shot\ 2020-05-01\ at\ 3.52.23\ AM.png");
+    z-index: -5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    }
+
+    #pageContent{
+      margin-left: 5vw;
+    }
+  
