@@ -14,13 +14,13 @@ export default class KeyPoints extends Component {
                         </div>   <div id="aiImageOne"></div>
                 </div>
                 <div id="mainTextAreaOne"> 
-                <span id="mainTextSlide">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                   It has survived not only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of
-                     Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                      publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                <span id="mainTextSlide">
+                  IMPLEMENTING HUMAN RIGHTS CAN HELP
+                  IDENTIFY AND ANTICIPATE SOME OF AI’S WORST
+                  SOCIAL HARMS AND GUIDE THOSE DEVELOPING
+                  TECHNICAL AND POLICY SAFEGUARDS TO
+                  PROMOTE POSITIVE USES.
+                </span>
                 </div>         
              </div>
              <div id="sectionTwo">
@@ -30,13 +30,19 @@ export default class KeyPoints extends Component {
                         </div>   <div id="aiImageTwo"></div>
                 </div>
                 <div id="mainTextAreaTwo"> 
-                <span id="mainTextSlide">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen 
-                  book. It has survived not only five centuries, but also the leap into electronic 
-                  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                   release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                <span id="mainTextSlide">
+
+                  Can international human rights help guide and govern artificial intelligence (AI)?
+                  Currently, much of society is uncertain about the real human impacts of AI systems.
+                  Amid hopes that AI can bring forth “global good” there is evidence that some AI systems are already violating fundamental rights and freedoms. 
+                  As stakeholders look for a North Star to guide AI development, we can rely on human rights to help chart the course ahead. 
+                  International human rights are a powerful tool for identifying, preventing, and redressing an important class of risks and harms. 
+                  A human rights-based frame could provide those developing AI with the aspirational, normative, and legal 
+                  guidance to uphold human dignity and the inherent worth of every individual regardless of country or jurisdiction. Simply put:
+                  In order for AI to benefit the common good, at the very least its design and deployment should avoid harms to fundamental human
+                  values. International human rights provide a robust and global formulation of those values.
+      
+                </span>
                 </div>
              </div>
              <div id="sectionThree">
@@ -46,13 +52,15 @@ export default class KeyPoints extends Component {
                         </div>   <div id="aiImageThree"></div>
                 </div>
                 <div id="mainTextAreaThree"> 
-                <span id="mainTextSlide">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen
-                   book. It has survived not only five centuries, but also the leap into electronic
-                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                     release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                      desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                <span id="mainTextSlide">
+                     Those working on technology policy are faced with the difficult task of deciding what standards, values, or norms to 
+                     apply in different social contexts. They need to balance the tradeoffs of developing or deploying technologies. 
+                     They need to understand the potential misuses and abuses, unintended consequences, biases in sociotechnical systems, 
+                     and even the costs of not deploying a tool when it may help someone in need. 
+                     Human rights provide those working on AI with a basis for understanding why governing systems – 
+                     from technical standards to policy – should address values like nondiscrimination in the first place. 
+                     This is important for tech companies whose products will be used across national borders where laws and values vary.
+                </span>
                 </div>
              </div>
           </div>
