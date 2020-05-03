@@ -24,22 +24,23 @@ h1 {
 }
 
 /* Nav  */
-li{
+li a{
   list-style-type: none;
   display: inline-block;
   margin: 10px;
   text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 100px;
 }
 
-li a {
-  color: white;
-}
 /* End Nav */
 
 /* Home styling */
 .homeContainer{
   border: none;
   color: white;
+  text-align: center;
 
 }
 
@@ -53,6 +54,7 @@ li a {
 .footerParent{
   border: none;
   color: white;
+  text-align: center;
  
 }
 
