@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("https://media1.giphy.com/media/nlJF31X6I1LW/giphy.gif?cid=ecf05e471c07891f66dbc74c64041a2e0fba878517bd429d&rid=giphy.gif");
+  background-image: url("https://media0.giphy.com/media/26FPOFusQUOKpnXTG/200w.webp?cid=ecf05e475f499de3122d40fa787c15e3f72d85d5e126bcd3&rid=200w.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
@@ -14,7 +14,9 @@ h1 {
 }
 
 #header{
-  background-image: url("https://media1.giphy.com/media/1oF1KAEYvmXBMo6uTS/source.gif");
+  margin-top: -30px;
+  background-image: url("https://media1.giphy.com/media/nlJF31X6I1LW/200w.webp?cid=ecf05e475f499de3122d40fa787c15e3f72d85d5e126bcd3&rid=200w.webp");
+  background-attachment: fixed;
   width: 100%;
   height: 10vh;
   text-align: center;
@@ -33,6 +35,7 @@ li{
 /* Home styling */
 .homeContainer{
   border: none;
+  color: white;
 
 }
 
@@ -44,7 +47,7 @@ li{
 
 /* Footer Styling */
 .footerParent{
-  border: 3px solid red;
+  border: none;
  
 }
 
