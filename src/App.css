@@ -1,6 +1,10 @@
 .App {
   text-align: center;
   background-image: url("https://media1.giphy.com/media/nlJF31X6I1LW/giphy.gif?cid=ecf05e471c07891f66dbc74c64041a2e0fba878517bd429d&rid=giphy.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+
 }
 
 /* header by charles*/
@@ -28,7 +32,7 @@ li{
 
 /* Home styling */
 .homeContainer{
-  border: solid 3px orange;
+  border: none;
 
 }
 
