@@ -7,7 +7,7 @@ export default class Header extends Component {
         return (
             <div>
                 <header id="header">
-                Governing Artificial Intelligence:
+                <h1>Governing Artificial Intelligence:</h1>
                 </header>
                 
             </div>
