@@ -6,7 +6,7 @@ export default class KeyPoints extends Component {
         return (
          <div id="backgroundAll">
            <div id="pageContent">
-             <h1 id="top">Governing Artificial Intelligence</h1>
+             <h1 id="top"></h1>
              <div id="sectionOne">
                 <div id="headlineArea"> 
                      <div id="textHeadlineOne">
@@ -31,7 +31,6 @@ export default class KeyPoints extends Component {
                 </div>
                 <div id="mainTextAreaTwo"> 
                 <span id="mainTextSlide">
-
                   Can international human rights help guide and govern artificial intelligence (AI)?
                   Currently, much of society is uncertain about the real human impacts of AI systems.
                   Amid hopes that AI can bring forth “global good” there is evidence that some AI systems are already violating fundamental rights and freedoms. 
@@ -41,7 +40,6 @@ export default class KeyPoints extends Component {
                   guidance to uphold human dignity and the inherent worth of every individual regardless of country or jurisdiction. Simply put:
                   In order for AI to benefit the common good, at the very least its design and deployment should avoid harms to fundamental human
                   values. International human rights provide a robust and global formulation of those values.
-      
                 </span>
                 </div>
              </div>
