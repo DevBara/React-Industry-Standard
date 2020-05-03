@@ -30,6 +30,10 @@ li{
   margin: 10px;
   text-align: center;
 }
+
+li a {
+  color: white;
+}
 /* End Nav */
 
 /* Home styling */
@@ -48,6 +52,7 @@ li{
 /* Footer Styling */
 .footerParent{
   border: none;
+  color: white;
  
 }
 
