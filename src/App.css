@@ -60,10 +60,12 @@ li a{
 
 /* End Footer Styling */
 
+/* Start of first section */
 #sectionOne{
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 
 #top{
@@ -94,8 +96,11 @@ height: 70vh;
   height: 50%;
   border: solid black 1px;
   background-image: url("./images/irobot.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
+/* First text box */
 #mainTextAreaOne{
   width: 58%;
   display: inline-flex;
@@ -131,6 +136,9 @@ margin-left: 0;
   color: #1C4032;
 }
 
+/* End of first section */
+/* Start of second section */
+
 #sectionTwo{
   display: flex;
   flex-direction: row;
@@ -157,12 +165,16 @@ margin-left: 0;
   }
 
   #aiImageTwo{
-    width: 100%;
+    width: 200%;
     height: 50%;
     border: solid black 1px;
     background-image: url("./images/johhnyfive.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: cover;
   }
 
+  /* Second text box */
   #mainTextAreaTwo{
     width: 58%;
     display: inline-flex;
@@ -203,6 +215,8 @@ margin-left: 0;
       height: 50%;
       border: solid black 1px;
       background-image: url("./images/citizenship.jpg");
+      background-attachment: fixed;
+      background-repeat: repeat;
     }
   
     #mainTextAreaThree{
