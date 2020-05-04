@@ -154,6 +154,16 @@ margin-left: 0;
   background-color: whitesmoke;
   }
 
+  #aiImageTwo{
+    width: 500%;
+    height: 50%;
+    border: none;
+    background-image: url("./images/johhnyfive.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: auto;
+  
+  }
   #textHeadlineTwo{
     width: 100%;
     height: 50%;
@@ -164,16 +174,7 @@ margin-left: 0;
     color: whitesmoke;
   }
 
-  #aiImageTwo{
-    width: 500px;
-    height: 500px;
-    border: none;
-    background-image: url("./images/johhnyfive.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    object-fit: contain;
   
-  }
 
   /* Second text box */
   #mainTextAreaTwo{
@@ -212,12 +213,13 @@ margin-left: 0;
     }
   
     #aiImageThree{
-      width: 100%;
+      width: 50%;
       height: 50%;
       border: solid black 1px;
       background-image: url("./images/citizenship.jpg");
       background-attachment: fixed;
-      background-repeat: repeat;
+      background-size: cover;
+    
     }
   
     #mainTextAreaThree{
@@ -229,13 +231,16 @@ margin-left: 0;
       color: whitesmoke;
       font-size: x-large;
       font-weight: bolder;
+      
     }
 
     #backgroundAll{
-      background-image: url("./images/Screen\ Shot\ 2020-05-01\ at\ 3.52.23\ AM.png");
+    /*
+    background-image: url("./images/Screen\ Shot\ 2020-05-01\ at\ 3.52.23\ AM.png");
     z-index: -5;
     background-repeat: no-repeat;
     background-size: cover;
+    */
     text-align: center;
     }
 
