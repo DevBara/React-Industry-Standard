@@ -165,13 +165,14 @@ margin-left: 0;
   }
 
   #aiImageTwo{
-    width: 200%;
-    height: 50%;
-    border: solid black 1px;
+    width: 500px;
+    height: 500px;
+    border: none;
     background-image: url("./images/johhnyfive.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: cover;
+    object-fit: contain;
+  
   }
 
   /* Second text box */
